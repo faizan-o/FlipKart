@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-row-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.font-boli {
+    font-family: 'MV Boli', 'Pangolin', 'Sans Serif';
+}
+
+.font-serif {
+    font-family: 'fira sans';
+}
+
+.font-pangolin {
+    font-family: 'Pangolin', 'MV Boli', 'Sans Serif';
+}
+
+.font-roboto {
+    font-family: 'Roboto', 'Sans Serif', 'MV Boli';
+}
+
+
+.align-text-horizontal {
+    align-self: center;
+}
+
+.align-text-vertical {
+    text-align: center;
+}
+.display-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    gap: 130px;
+}

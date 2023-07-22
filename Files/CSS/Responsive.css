@@ -1,0 +1,53 @@
+@media screen and (max-width: 1000px) {
+    
+    #search-area{
+        display: none;
+    }
+    #furniture-container h1{
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 735px){
+    #profile-container{
+        display: none;
+    }
+    #navbar{
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 755px){
+    footer{
+        height: 120px;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 465px){
+    .shop-item{
+        min-width: 10rem;
+    }
+    #logo-container h1{
+        font-size: 1rem;
+    }
+    #logo-container img{
+        height: 40px;
+    }
+    #nav-heading-container{
+        font-size: 1rem;
+    }
+    footer h3{
+        font-size: 1rem;
+    }
+    .offer-container h1{
+        font-size: 1.5rem;
+    }
+    .offer-container h3{
+        font-size: 1rem;
+    }
+    .shop-item img{
+        height: 80px;
+    }
+}
